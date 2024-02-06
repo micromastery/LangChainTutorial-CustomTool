@@ -18,9 +18,6 @@ def text_to_speech(text: str, filename: str) -> None:
     myobj = gTTS(text=text, lang=language, slow=False) 
     myobj.save(filename) 
     
-
-
-
     
 os.environ["OPENAI_API_KEY"] = "<OPENAI_API_KEY>"
 
